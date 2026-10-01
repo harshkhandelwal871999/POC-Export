@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/1/2026 12:41:51 AM +00:00",
-      "DateModify": "10/1/2026 12:41:51 AM +00:00",
+      "DateCreation": "10/1/2026 12:41:52 AM +00:00",
+      "DateModify": "10/1/2026 12:41:52 AM +00:00",
       "Title": "SF2",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -23,7 +23,40 @@
         "Hight": "10000",
         "IsDeleted": "False",
         "Id": "4a66a21e-b0ae-4c15-b75f-80fcd919e199",
-        "BuildingBlocks": [],
+        "BuildingBlocks": [
+          {
+            "Title": "Start",
+            "XPosition": "5000",
+            "YPosition": "5000",
+            "IsExpanded": "False",
+            "Width": "150",
+            "TemplateId": "",
+            "FlowchartId": "4a66a21e-b0ae-4c15-b75f-80fcd919e199",
+            "Type": "GroupExecutionInput",
+            "Note": "",
+            "IsNoteVisible": "False",
+            "Id": "1afe46f5-1f87-44cb-92a1-b4d533000163",
+            "FlowProperties": [
+              {
+                "ParentBuildingBlockId": "1afe46f5-1f87-44cb-92a1-b4d533000163",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Header",
+                "Key": "Header",
+                "Title": "Start",
+                "SortOrder": "0",
+                "ValueId": "",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "0550e2d3-b868-4ba3-8854-b4d533000163",
+                "ChildProperties": [],
+                "Connections": []
+              }
+            ]
+          }
+        ],
         "FlowProperties": [
           {
             "ParentBuildingBlockId": "bc80f868-d75c-4a65-91c3-b4d5d97d0162",
@@ -41,6 +74,30 @@
             "Id": "780bb6d2-7557-412a-9c14-b4d5d97d0162",
             "ChildProperties": [],
             "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "bc80f868-d75c-4a65-91c3-b4d5d97d0162",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Start",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "True",
+            "CustomSortOrder": "0",
+            "Id": "880eaacf-0956-49d1-80ca-e4caeea9effb",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "880eaacf-0956-49d1-80ca-e4caeea9effb",
+                "InputFlowPropertyId": "0550e2d3-b868-4ba3-8854-b4d533000163",
+                "Id": "205dee54-0a8e-46da-a73e-b4d533020163",
+                "WireGuides": []
+              }
+            ]
           }
         ]
       }
