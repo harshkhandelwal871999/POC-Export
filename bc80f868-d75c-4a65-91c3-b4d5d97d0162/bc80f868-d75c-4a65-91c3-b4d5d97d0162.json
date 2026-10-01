@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/1/2026 12:41:52 AM +00:00",
-      "DateModify": "10/1/2026 12:41:52 AM +00:00",
+      "DateCreation": "10/1/2026 12:41:51 AM +00:00",
+      "DateModify": "10/1/2026 12:41:51 AM +00:00",
       "Title": "SF2",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -55,6 +55,45 @@
                 "Connections": []
               }
             ]
+          },
+          {
+            "Title": "Pass",
+            "XPosition": "5200",
+            "YPosition": "5000",
+            "IsExpanded": "False",
+            "Width": "150",
+            "TemplateId": "",
+            "FlowchartId": "4a66a21e-b0ae-4c15-b75f-80fcd919e199",
+            "Type": "GroupExecutionOutput",
+            "Note": "",
+            "IsNoteVisible": "False",
+            "Id": "d0ec06be-88b2-4ff5-ad04-b4d53ec20163",
+            "FlowProperties": [
+              {
+                "ParentBuildingBlockId": "d0ec06be-88b2-4ff5-ad04-b4d53ec20163",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Header",
+                "Key": "Header",
+                "Title": "Pass",
+                "SortOrder": "0",
+                "ValueId": "",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "d9d65f37-7dc5-41e3-b56c-b4d53ec20163",
+                "ChildProperties": [],
+                "Connections": [
+                  {
+                    "OutputFlowPropertyId": "d9d65f37-7dc5-41e3-b56c-b4d53ec20163",
+                    "InputFlowPropertyId": "8ae3c0ba-c9e5-4e99-9277-143dba67de26",
+                    "Id": "e706dc90-1436-4f0f-9bb8-b4d53ec30163",
+                    "WireGuides": []
+                  }
+                ]
+              }
+            ]
           }
         ],
         "FlowProperties": [
@@ -98,6 +137,23 @@
                 "WireGuides": []
               }
             ]
+          },
+          {
+            "ParentBuildingBlockId": "bc80f868-d75c-4a65-91c3-b4d5d97d0162",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Pass",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "True",
+            "CustomSortOrder": "0",
+            "Id": "8ae3c0ba-c9e5-4e99-9277-143dba67de26",
+            "ChildProperties": [],
+            "Connections": []
           }
         ]
       }

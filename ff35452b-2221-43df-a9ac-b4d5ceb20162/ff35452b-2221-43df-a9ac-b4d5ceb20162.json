@@ -45,7 +45,7 @@
                 "Key": "Header",
                 "Title": "Execution Input",
                 "SortOrder": "0",
-                "ValueId": "e9832945-0bb8-4a9e-b653-b4d5abb10163",
+                "ValueId": "b23626a5-0481-48dc-a1aa-b4d5c24d0163",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
@@ -55,9 +55,65 @@
                 "Connections": []
               }
             ]
+          },
+          {
+            "Title": "Execution Output",
+            "XPosition": "5090",
+            "YPosition": "4690",
+            "IsExpanded": "True",
+            "Width": "150",
+            "TemplateId": "",
+            "FlowchartId": "31b2bd2b-94d8-4d76-a99a-b2020896185a",
+            "Type": "GroupExecutionOutput",
+            "Note": "",
+            "IsNoteVisible": "False",
+            "Id": "99e0838a-1fdc-4a93-9f51-d44ec908d424",
+            "FlowProperties": [
+              {
+                "ParentBuildingBlockId": "99e0838a-1fdc-4a93-9f51-d44ec908d424",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Header",
+                "Key": "Header",
+                "Title": "Execution Output",
+                "SortOrder": "0",
+                "ValueId": "a57ab317-404f-412f-9564-b4d5c24d0163",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "f5f9b590-1e71-4a7e-a604-176442bb6120",
+                "ChildProperties": [],
+                "Connections": [
+                  {
+                    "OutputFlowPropertyId": "f5f9b590-1e71-4a7e-a604-176442bb6120",
+                    "InputFlowPropertyId": "c535bf86-3bc4-4ee8-98e4-dfe52bcc3e18",
+                    "Id": "fffbb0e5-b182-4c20-bda1-b4d5c24d0163",
+                    "WireGuides": []
+                  }
+                ]
+              }
+            ]
           }
         ],
         "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "ff35452b-2221-43df-a9ac-b4d5ceb20162",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "56f9ff35-c78e-46d3-9b58-c4b5fef086c4",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Execution Output",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "c535bf86-3bc4-4ee8-98e4-dfe52bcc3e18",
+            "ChildProperties": [],
+            "Connections": []
+          },
           {
             "ParentBuildingBlockId": "ff35452b-2221-43df-a9ac-b4d5ceb20162",
             "ParentFlowPropertyId": "",
